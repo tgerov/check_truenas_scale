@@ -3,7 +3,7 @@
 # Name: check_truenas_scale.py
 # Description: Check TrueNAS scale alerts via RestAPI
 # License: GPLv3
-# Copyright (c) 2025 Tsvetan Gerov
+# Copyright (c) 2025 Tsvetan Gerov <tsvetan@gerov.eu>
 
 import argparse
 import requests
@@ -60,7 +60,7 @@ def main():
     parser = argparse.ArgumentParser(
                     prog='check_truenas_scale.py',
                     description="Check TrueNAS scale alerts via RestAPI",
-                    epilog='Send email to checks@gerov.eu if you have questions regarding use of this software.')
+                    epilog='Send email to tsvetan@gerov.eu if you have questions regarding use of this software.')
     parser.add_argument('-H', '--hostname', required=True, type=str, help='Host name or IP Address')
     parser.add_argument('-t', '--token', required=True, type=str, help='API token')
 
