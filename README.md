@@ -16,7 +16,7 @@ options:
                         Host name or IP Address
   -t, --token TOKEN     API token
 
-Send email to check-truenas@gerov.eu if you have questions regarding use of this software.
+Send email to tsvetan@gerov.eu if you have questions regarding use of this software.
 ```
 
 Example Usage:
